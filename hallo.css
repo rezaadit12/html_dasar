@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+
+body{
+   
+    
+    background-repeat: no-repeat;
+    height: 1000px;  
+}
+nav{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+   background-color: rgb(206, 99, 99);
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table; 
+    width: 97%;
+}
+
+nav ul li {
+    float: right;
+    border-radius: 10px;
+    ;
+}
+
+nav ul li:hover {
+    background-color:gold;
+}
+
+nav ul li a:hover {
+    color:#000;
+    transform: rotate(6deg);
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: chartreuse;
+    text-decoration: none;
+    transition: all .5s ease 0s;
+    display: inline-block;
+
+}
+
+.nama1 {
+    float: left;
+}
+
+
